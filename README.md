@@ -1,5 +1,16 @@
 # Java的GBK编码项目统一转换成utf-8格式
 
+- 在Explore中进入cmd，使用如下命令运行jar包
+
+```bash
+java -jar GBK2UTF8.jar
+```
+- 运行界面
+![运行过程演示](https://cdn.jsdelivr.net/gh/lizhangjie316/img/2020/20201228134639.png)
+1. 输入源路径
+2. 输出目录
+
+---
 - 构建
 > 使用common io批量将java编码从GBK转UTF-8
 
@@ -79,15 +90,7 @@ public class GBK2UTF8 {
 
 ![image-20201228150315028](https://cdn.jsdelivr.net/gh/lizhangjie316/img/2020/20201228150315.png)
 
-7.  在Explore中进入cmd，使用如下命令运行jar包
 
-```bash
-java -jar GBK2UTF8.jar
-```
-- 运行界面
-![运行过程演示](https://cdn.jsdelivr.net/gh/lizhangjie316/img/2020/20201228134639.png)
-1. 输入源路径
-2. 输出目录
 
 <font color='red'>PS:  提示错误   .jar中没有主清单属性</font>
 
